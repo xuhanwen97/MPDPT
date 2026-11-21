@@ -24,6 +24,6 @@ Process is spec-driven: change the spec first, then plan, then code.
 
 ## Commands
 - Tests: `node --test tests/`
-- Local preview: `python3 -m http.server 8000` then open http://localhost:8000
+- Local preview: `npx --yes http-server -p 8765 -c-1 .` (system python3 is a broken CLT stub on this Mac)
 - Add reading: `node scripts/ingest.mjs add --runner maddie --source rtrt --kind split --distance 6.21 --label 10K --at 2026-11-21T08:05:00-05:00 --elapsed 3720`
 - Publish: `scripts/publish.sh "msg"`

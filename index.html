@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MPDPT Tracker</title>
+  <meta name="description" content="Live tracker for our friends at the 2026 Philadelphia Marathon Weekend">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏃</text></svg>">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>MPDPT</h1>
+      <p class="sub">Philly Marathon Weekend 2026</p>
+    </div>
+    <div class="filters" role="group" aria-label="Race filter">
+      <button data-race="today">Today</button>
+      <button data-race="half">Half</button>
+      <button data-race="full">Full</button>
+      <button data-race="all">All</button>
+    </div>
+  </header>
+  <div id="banner" class="banner" hidden></div>
+  <main>
+    <div id="map" aria-label="Course map"></div>
+    <section id="cards" aria-live="polite"></section>
+  </main>
+  <footer>
+    <span id="pushed">Loading...</span>
+    <span>Positions between readings are projected from pace. Course line is approximate.
+      <a id="rtrt" target="_blank" rel="noopener">Official tracker</a></span>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

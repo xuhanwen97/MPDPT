@@ -1,0 +1,60 @@
+{
+  "updatedAt": "2026-11-21T13:20:00.000Z",
+  "observations": [
+    {
+      "runner": "maddie",
+      "source": "rtrt",
+      "kind": "split",
+      "observedAt": "2026-11-21T12:31:00.000Z",
+      "recordedAt": "2026-11-21T13:20:00.000Z",
+      "distanceMi": 2.67,
+      "elapsedSec": 1540,
+      "label": "4.3K",
+      "id": "maddie-rtrt-2026-11-21T12:31:00.000Z"
+    },
+    {
+      "runner": "paige",
+      "source": "rtrt",
+      "kind": "split",
+      "observedAt": "2026-11-21T12:36:00.000Z",
+      "recordedAt": "2026-11-21T13:20:00.000Z",
+      "distanceMi": 2.67,
+      "elapsedSec": 1770,
+      "label": "4.3K",
+      "id": "paige-rtrt-2026-11-21T12:36:00.000Z"
+    },
+    {
+      "runner": "maddie",
+      "source": "rtrt",
+      "kind": "split",
+      "observedAt": "2026-11-21T13:06:00.000Z",
+      "recordedAt": "2026-11-21T13:20:00.000Z",
+      "distanceMi": 6.21,
+      "elapsedSec": 3610,
+      "label": "10K",
+      "id": "maddie-rtrt-2026-11-21T13:06:00.000Z"
+    },
+    {
+      "runner": "paige",
+      "source": "garmin",
+      "kind": "gps",
+      "observedAt": "2026-11-21T13:10:00.000Z",
+      "recordedAt": "2026-11-21T13:20:00.000Z",
+      "distanceMi": 5.1,
+      "lat": 39.94981,
+      "lng": -75.15321,
+      "id": "paige-garmin-2026-11-21T13:10:00.000Z"
+    },
+    {
+      "runner": "maddie",
+      "source": "findmy",
+      "kind": "gps",
+      "observedAt": "2026-11-21T13:18:00.000Z",
+      "recordedAt": "2026-11-21T13:20:00.000Z",
+      "lat": 39.95696,
+      "lng": -75.19023,
+      "label": "near Zoo",
+      "id": "maddie-findmy-2026-11-21T13:18:00.000Z"
+    }
+  ]
+}
